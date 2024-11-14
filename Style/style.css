@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffdee1;
+}
+.location{
+    font-size: 1ch;
+}
+.styled-line {
+    border: none;           
+    border-top: 2px solid #e9aeae; 
+    box-shadow: 0 4px 6px rgba(15, 0, 0, 0.678); 
+}
+header img{
+    width: 50px;
+    margin-right: 10px;
+}
+header{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.first-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.text-section {
+    flex: 1;
+    max-width: 60%;
+    text-align: left;
+}
+
+.header, .jpn {
+    margin: 0;
+}
+
+.jpn {
+    color: #d48f30;
+    font-size: 2.5rem;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: rgb(204, 82, 82);
+    background-color: #fca5e25d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #b826522c;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-top-left-radius: 200px; 
+    border-bottom-left-radius: 200px;
+}
+.galary-container{
+    margin-top: 10px;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px; 
+}
+
+.image-gallery img {
+    width: 170px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 90px; 
+}
+
+.content-container {
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-section2 {
+    flex: 1;
+    max-width: 400px; 
+}
+
+.image-section2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.circle-background {
+    width: 350px;
+    height: 350px; 
+    background-color: #f3c1e1;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para-section {
+    flex: 2; 
+    text-align: left;
+}
